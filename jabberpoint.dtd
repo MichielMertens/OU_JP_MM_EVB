@@ -1,13 +1,14 @@
-<!--
- Document Type Definition voor JabberPoint presentatties
- $Id$
- -->
+<!-- Document Type Definition voor JabberPoint presentatties $Id$ -->
 <!ELEMENT presentation (head,slide+)>
 <!ELEMENT head (title)>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT slide (title, items)>
-<!ELEMENT items (text|image)*>
+<!ELEMENT items (text|image|action)*>
 <!ELEMENT text (#PCDATA)>
 <!ELEMENT image (#PCDATA)>
+<!ELEMENT action (text|image|action)+>
+<!ELEMENT slidenumber (#PCDATA)>
 <!ATTLIST text level CDATA #REQUIRED>
 <!ATTLIST image level CDATA #REQUIRED>
+<!ATTLIST action name CDATA #REQUIRED>
+<!ATTLIST action value CDATA #REQUIRED>
