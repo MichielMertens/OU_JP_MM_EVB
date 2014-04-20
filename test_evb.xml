@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE presentation SYSTEM "jabberpoint.dtd">
+<presentation>
+	<head>
+		<title>Demo Presentation for Jabberpoint</title>
+	</head>
+	<slide>
+		<title>Title Slide</title>
+		<items>
+			<text level="1">Level 1 - TextItem</text>
+			<text level="2">Level 2 - TextItem</text>
+			<action name="next" value="">
+				<action name="beep" value="">
+					<action name="previous" value="">
+						<!--<action name="goto" value="2"> -->
+						<!--<action name="open" value="test.xml"> -->
+						<text level="2">Next Page and beep</text>
+						<!--</action> -->
+						<!--</action> -->
+					</action>
+				</action>
+			</action>
+			<text level="2">Level 2 - last TextItem</text>
+		</items>
+	</slide>
+</presentation>

@@ -14,7 +14,7 @@ import java.awt.image.ImageObserver;
  * @version $Id: SlideItem.java,v 1.3 2004/08/17 Sylvia Stuurman
  */
 
-public abstract class SlideItem {
+public abstract class SlideItem implements SlideItemInterface {
   private int level = 0; // het level van het slideitem
 
   public SlideItem(int lev) {

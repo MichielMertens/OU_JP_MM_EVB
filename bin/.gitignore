@@ -22,3 +22,10 @@
 /Style.class
 /TextItem.class
 /XMLAccessor.class
+/SlideItemInterface.class
+/SlideItemDecorator.class
+/GaNaarSlideDecorator.class
+/CopyOfGaNaarSlideDecorator.class
+/asdf.class
+/OpenPresentationDecorator.class
+/BeepDecorator.class
